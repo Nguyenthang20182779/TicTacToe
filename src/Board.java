@@ -16,7 +16,7 @@ public class Board {
     public boolean hasPlayerWon(int player){
 
         if((board[0][0] == board[1][1] && board[0][0] == board[2][2] && board[0][0] == player) ||
-                (board[0][2] == board[1][1] && board[0][3] == board[2][0] && board[0][2] == player)){
+                (board[0][2] == board[1][1] && board[0][2] == board[2][0] && board[0][2] == player)){
             return true;
         }
 
